@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Eleventy output
+_site/
+
+# Local env files
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor folders and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Cache and build dirs
+.cache/
+dist/
+build/
+coverage/
+
+# Misc
+*.log
+*.swp
