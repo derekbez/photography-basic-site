@@ -9,6 +9,8 @@ module.exports = function(eleventyConfig) {
   // Copy `content/css` to output `/css`
   eleventyConfig.addPassthroughCopy({ "content/css": "css" });
 
+  pathPrefix: "/photography-basic-site/"
+  
   // Simple `date` filter used in templates (supports %Y, %m, %d)
   eleventyConfig.addFilter("date", function(value, formatStr) {
     try {
