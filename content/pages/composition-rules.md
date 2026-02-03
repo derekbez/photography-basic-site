@@ -87,10 +87,9 @@ As the saying goes:
 
 Odd numbers of elements — three birds, five stones, seven flowers — often feel more dynamic than even numbers. Our eyes naturally react well to a bit of asymmetry and imbalance.
 
-<figure class="img-center">
-  <img loading="lazy" src="{{ '/img/20101112_07_58_16_3899.jpg' | url }}" alt="Family portrait" class="img-medium">
-  <figcaption>Family portrait</figcaption>
-</figure>
+
+  <img loading="lazy" src="{{ '/img/2018_07_10_12_01_38_9287.jpg' | url }}" alt="RAF100 Flyby" class="img-medium float-center">
+
 
 
 

@@ -24,6 +24,8 @@ If an image doesn’t offer the viewer something clear to look at — something 
 
 Every photo needs that one element — bold or subtle — that gently says, “Start here.”
 
+<img loading="lazy" src="{{ '/img/2011_10_21_12_08_13_8824-4.jpg' | url }}" alt="Landscape" class="img-medium float-right">
+
 (A little reminder: when I say “every photo,” I mean *our* photos. The ones we’re making with intention and care. Not the countless random snaps posted to Twitbook every day. We’re aiming for pictures that stand out, that feel thoughtful, that have something to say.)
 
 Your subject can be absolutely anything:  

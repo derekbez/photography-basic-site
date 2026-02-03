@@ -20,8 +20,6 @@ On your camera screen, the display often drops the “1/” part to save space. 
 
 It’s an important difference, and worth getting used to.
 
-\[IMAGES through viewfinder to demonstrate 10 vs 10”]
-
 ***
 
 ### Try it yourself

@@ -308,13 +308,23 @@ header {
   margin: 0 1rem 1rem 0;
 }
 
+/* Center an image utility (use on the <img> element) */
+.float-center {
+  display: block;
+  margin: 1.5rem auto;
+  clear: both;
+}
+
+/* Support `.img-center` as wrapper or image */
 .img-center {
   text-align: center;
   margin: 2rem 0;
 }
 
+img.img-center,
 .img-center img {
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Gallery layouts */

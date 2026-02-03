@@ -46,9 +46,7 @@ A DSLR is built around a clever little system of mirrors. Here’s how it works,
 
 This mechanism is why DSLRs have that distinctive “clack‑clack” sound — a tiny ballet of moving parts happening in milliseconds.
 
-DSLRs also brought something that would shape photography for the next generation:
-
-**interchangeable lenses.**
+DSLRs also brought something that would shape photography for the next generation: **interchangeable lenses.**
 
 Being able to swap lenses opened up a whole world of possibilities — wide‑angles, telephotos, macro lenses, portrait lenses — each designed to show the world in a different way. Once you start exploring lenses, you truly begin to discover the creative power of photography.
 

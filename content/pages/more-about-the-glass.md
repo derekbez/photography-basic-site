@@ -23,6 +23,8 @@ Focal length is not the physical length of the lens. The definition used by DPRe
 
 In short: focal length determines how much of the scene the lens captures, and how “zoomed in” it feels.
 
+<img loading="lazy" src="{{ '/img/sony-lenses.jpg' | url }}" alt="Lenses" class="img-medium float-centre">
+
 ***
 
 ### Categories of focal length
@@ -37,6 +39,8 @@ People love to categorise lenses, though the boundaries are fuzzy and different 
 
 Don’t worry too much about the exact numbers — this is just a helpful way to think about the general behaviour of lenses.
 
+<img loading="lazy" src="{{ '/img/nikon-lenses.jpg' | url }}" alt="Lenses" class="img-medium float-centre">
+
 ***
 
 ### Field of view
@@ -47,8 +51,6 @@ One of the most noticeable characteristics of focal length is **field of view** 
 • A **Super‑tele** lens gives a very narrow slice of the scene — perfect for distant subjects.  
 • **Normal** lenses capture a perspective similar to how we see the world.
 
-\[diagram of field of view]
-
 ***
 
 ### An example set of focal lengths
@@ -57,8 +59,6 @@ In the series below, the focal length changes from **18mm** all the way to **300
 
 • **18mm**: a wide, sweeping view — lots of sea, lots of sky, and relatively little detail.  
 • **300mm**: a tight view where you can clearly see people on the beach.
-
-
 
 <div class="img-row">
   <img loading="lazy" src="{{ '/img/2016_03_13_09_42_05_6046.jpg' | url }}" alt="18mm" class="img-smaller">
@@ -95,8 +95,6 @@ You may also have noticed that wide‑angle lenses make background objects appea
 
 Telephotos compress space, making background and foreground appear nearer to each other. Sports broadcasts use this constantly, which is why two players can look shoulder‑to‑shoulder when they might actually be ten or thirty metres apart.
 
-\[insert sport photo]
-
 ***
 
 ### Facial distortion (and how to avoid making people look odd!)
@@ -106,8 +104,6 @@ Here’s where it becomes practical.
 If you want to make someone look *unflattering*, stand very close with a **wide** lens. Wide lenses accentuate anything near the lens: noses look bigger, faces stretch, and features can become comically distorted. Placing a person near the edge of a wide frame exaggerates this even more.
 
 So, unless you’re going for a fun caricature, be cautious with wide lenses for portraits.
-
-\[insert wide‑lens distortion images]
 
 A much better option for people you like is a **telephoto** focal length:
 
@@ -121,4 +117,4 @@ These focal lengths give a natural, flattering look — one reason many portrait
 
 Focal length is one of the most powerful tools you have for controlling the look and feel of your photos. Understanding how it affects field of view, perspective, and shape will give you far more creative freedom.
 
-If you’d like, I can help you create a practical exercise to accompany this chapter — similar to your earlier challenges.
+<img loading="lazy" src="{{ '/img/canon-lenses.jpg' | url }}" alt="Lenses" class="img-medium float-centre">
