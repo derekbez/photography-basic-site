@@ -54,7 +54,7 @@ Create folder for images
   eleventyConfig.addPassthroughCopy({ "content/img": "img" });
 ```
 Images can now be added to the markdown like this
-`![Flying Stork](/img/2014_11_07_08_41_43_2069-Edit.jpg)`
+`![Flying Stork]({{ '/img/2014_11_07_08_41_43_2069-Edit.jpg' | url }})`
 
 Navigation using the Eleventy Navigation Plugin
 Install:

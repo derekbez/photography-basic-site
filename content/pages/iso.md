@@ -14,7 +14,7 @@ Does ISO stand for something? Probably — but honestly, no-one in day‑to‑da
 
 You’ll often see numbers like 100, 200, 400, 800, 1600, 3200, and so on. The lower the number, the less sensitive the sensor is to light. As a rough guide, ISO 100 or 200 works well outdoors on bright days. By the time you reach ISO 1600, the camera is sensitive enough to handle darker indoor scenes.
 
-<img loading="lazy" src="/img/2015_09_27_12_52_21_9314.jpg" alt="ISO" class="img-medium float-right">
+<img loading="lazy" src="{{ '/img/2015_09_27_12_52_21_9314.jpg' | url }}" alt="ISO" class="img-medium float-right">
 
 Don’t worry too much about the exact sequence of numbers. Different cameras offer different in‑between values such as 160, 320, or 1250. Almost all cameras start at ISO 100, and newer models can go astonishingly high. One recently announced camera even claims a maximum ISO of 3.2 million! Higher ISO simply means the camera can “see” better in the dark.
 
@@ -24,7 +24,7 @@ But why? If the feature is there, why not use it?
 
 Like many things in life, ISO comes with a trade‑off. As ISO increases, so does the amount of “noise” — the grainy, speckled look that reduces clarity and smoothness. If you remember old televisions going out of tune and turning into a mush of grey dots, that’s not far off what high‑ISO noise can do to an otherwise beautiful photo.
 
-<img loading="lazy" src="/img/2015_09_27_12_52_04_9313-2.jpg" alt="ISO grainy" class="img-medium float-left">
+<img loading="lazy" src="{{ '/img/2015_09_27_12_52_04_9313-2.jpg' | url }}" alt="ISO grainy" class="img-medium float-left">
 
 That said, you don’t need to shoot at ISO 100 all the time. A little noise, such as at ISO 800, is perfectly acceptable, and modern editing software does a good job of tidying it up. Newer cameras also handle noise far better than older ones. ISO numbers are relative, especially if your camera is one of the latest high‑end models. You may find that even ISO 409,600 produces a result you’re happy with in certain situations.
 

@@ -38,7 +38,7 @@ Imagine the frame split into **thirds**, with two vertical and two horizontal li
 This applies to horizons too. A horizon placed neatly on the top or bottom third usually feels more balanced than one cutting through the middle.
 
 <div class="img-center">
-  <img loading="lazy" src="/img/thirds example1.jpg" alt="Eyes on a thirds intersection" class="img-medium">
+  <img loading="lazy" src="{{ '/img/thirds example1.jpg' | url }}" alt="Eyes on a thirds intersection" class="img-medium">
 </div>
 
 *Eyes on a thirds intersection; body and horizon close to thirds lines too.*
@@ -47,7 +47,7 @@ This applies to horizons too. A horizon placed neatly on the top or bottom third
 
 ### Non‑Rule 4: Avoid background distractions
 
-<img loading="lazy" src="/img/tree-head.jpg" alt="Tree Head" class="img-small float-right">
+<img loading="lazy" src="{{ '/img/tree-head.jpg' | url }}" alt="Tree Head" class="img-small float-right">
 
 A lovely portrait loses its charm when a tree appears to be growing out of your subject’s head. The same goes for lamp posts, signs, stray elbows, or anything that doesn’t add to the story.
 
@@ -68,7 +68,7 @@ If someone is walking left‑to‑right, place them towards the **left** of the 
 **5b: Use negative space.**  
 Leaving some blank space — sky, a plain wall, an open field — creates calm, balance, and emphasis on your subject.
 
-<img loading="lazy" src="/img/give-space.jpg" alt="Tree Head" class="img-medium">
+<img loading="lazy" src="{{ '/img/give-space.jpg' | url }}" alt="Tree Head" class="img-medium">
 
 *Space to move and negative space helping isolate the subject.*
 
@@ -88,7 +88,7 @@ As the saying goes:
 Odd numbers of elements — three birds, five stones, seven flowers — often feel more dynamic than even numbers. Our eyes naturally react well to a bit of asymmetry and imbalance.
 
 <figure class="img-center">
-  <img loading="lazy" src="/img/20101112_07_58_16_3899.jpg" alt="Family portrait" class="img-medium">
+  <img loading="lazy" src="{{ '/img/20101112_07_58_16_3899.jpg' | url }}" alt="Family portrait" class="img-medium">
   <figcaption>Family portrait</figcaption>
 </figure>
 

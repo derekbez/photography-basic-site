@@ -37,7 +37,7 @@ Think about how often you’ve been drawn to a photo not because of perfect tech
 
 And what about landscapes? They can seem like an exception — more about scenery than subject. But the best landscape photographs still give your eye a place to land. They guide you gently towards two or three meaningful elements: the curve of a hill, a lone tree catching the light, a winding path leading into the mist. These become the emotional gateway into the scene. Together, they help the viewer imagine not just what the place looks like, but what it *feels* like to stand there — the quiet, the vastness, the chill in the air, the sense of escape or solitude.
 
-<img loading="lazy" src="/img/2013_12_24_13_38_39_0835.jpg" alt="Landscape" class="hero">
+<img loading="lazy" src="{{ '/img/2013_12_24_13_38_39_0835.jpg' | url }}" alt="Landscape" class="hero">
 
 Photography is not just a visual medium; it’s an emotional one.  
 The subject is the spark.  

@@ -12,7 +12,7 @@ Here’s a lovely example of *shallow* depth of field: in this portrait of Sophi
 
 
 <div class="img-center">
-  <img loading="lazy" src="/img/2016_03_23_10_28_29_9920.jpg" alt="Portrait example" class="img-medium">
+  <img loading="lazy" src="{{ '/img/2016_03_23_10_28_29_9920.jpg' | url }}" alt="Portrait example" class="img-medium">
 </div>
 (Thanks to @RoganWard for the photo.)
 
@@ -40,7 +40,7 @@ So if you’re photographing someone with a 55mm lens at f/5.6, and they’re on
 
 Some time ago, I made the classic mistake while photographing my sister and brother‑in‑law. I wanted a blurred background, so I shot at **f/4** with my **24–105mm** lens fully zoomed in. They were about 3m away from me.
 
-  <img loading="lazy" src="/img/2016_01_24_13_16_20_4139.jpg" alt="Portrait example" class="img-medium float-right">
+  <img loading="lazy" src="{{ '/img/2016_01_24_13_16_20_4139.jpg' | url }}" alt="Portrait example" class="img-medium float-right">
 
 I focused on my sister — all good.  
 But my brother‑in‑law was standing *slightly* in front of her. Only a few centimetres.
@@ -84,7 +84,7 @@ Good bokeh is typically:
 Some lenses produce more pleasing bokeh than others, thanks in part to the number and shape of their aperture blades. The more rounded the opening, the more rounded the highlights appear.
 
 <figure class="img-center">
-  <img loading="lazy" src="/img/2012_12_15_16_10_39_7858.jpg" alt="Bokeh example" class="img-medium">
+  <img loading="lazy" src="{{ '/img/2012_12_15_16_10_39_7858.jpg' | url }}" alt="Bokeh example" class="img-medium">
   <figcaption>Example bokeh</figcaption>
 </figure>
 

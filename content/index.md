@@ -12,4 +12,4 @@ Derek Bezuidenhout is a photographer and visual storyteller with a deep curiosit
 
 This site collects selected essays, technical notes, and a curated gallery of images. Browse the posts to read practical guides and reflective pieces about photography; if you'd like to get in touch about commissions or collaborations, visit the contact page.
 
-<img loading="lazy" src="/img/2016_03_31_18_25_24_5399.jpg" alt="Derek Bezuidenhout" class="hero">
+<img loading="lazy" src="{{ '/img/2016_03_31_18_25_24_5399.jpg' | url }}" alt="Derek Bezuidenhout" class="hero">

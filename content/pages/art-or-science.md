@@ -14,7 +14,7 @@ Photography means different things to different people.
 Art, according to the Oxford Dictionary, is *“the expression or application of human creative skill and imagination… producing works to be appreciated primarily for their beauty or emotional power.”*  
 Science, on the other hand, is *“the intellectual and practical activity encompassing the systematic study of the physical and natural world through observation and experiment.”*
 
-<img loading="lazy" src="/img/300px-Da_Vinci_Vitruve_Luc_Viatour.jpg" alt="Art and Science" class="img-medium float-right">
+<img loading="lazy" src="{{ '/img/300px-Da_Vinci_Vitruve_Luc_Viatour.jpg' | url }}" alt="Art and Science" class="img-medium float-right">
 
 Look closely at those definitions and a few words leap out. If we combine them, could we say that photography is an intellectual and practical activity that produces work to be appreciated for its beauty or emotional power? If so, then photography is not forced to choose a camp. It is both Art **and** Science.
 

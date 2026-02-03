@@ -16,7 +16,7 @@ Let’s take a look at what the numbers and letters on your lens actually mean. 
 ***
 
 ### Focal Length
-<img loading="lazy" src="/img/Sigma-lens-18-50.jpg" alt="Sigma 18-50mm" class="img-medium float-right">
+<img loading="lazy" src="{{ '/img/Sigma-lens-18-50.jpg' | url }}" alt="Sigma 18-50mm" class="img-medium float-right">
 Take this example: **Sigma 18–50mm**.
 
 This tells us two things:
@@ -64,7 +64,7 @@ This is the size of filters that screw onto your lens. You might not need filter
 ### Another Example: Canon 70–300mm 1:4–5.6 IS USM
 
 Let’s break this one down:
-<img loading="lazy" src="/img/canon-lens-70-300.jpg" alt="Canon 70-300mm" class="img-medium float-right">
+<img loading="lazy" src="{{ '/img/canon-lens-70-300.jpg' | url }}" alt="Canon 70-300mm" class="img-medium float-right">
 • **70–300mm** — a zoom lens that goes from a slightly telephoto 70mm to a powerful 300mm.  
 • **1:4–5.6** — the maximum aperture changes as you zoom.  
 • At 70mm, the widest aperture is **f/4**.  
@@ -80,7 +80,7 @@ Designing a lens that stays at f/4 all the way to 300mm would make it huge, heav
 
 ### One More: Canon EF 50mm 1:1.8 II Ø52mm
 
-<img loading="lazy" src="/img/canon-lens-50.jpg" alt="Canon 50mm 1.8" class="img-medium float-right">
+<img loading="lazy" src="{{ '/img/canon-lens-50.jpg' | url }}" alt="Canon 50mm 1.8" class="img-medium float-right">
 
 This is the famous “Nifty Fifty”.
 

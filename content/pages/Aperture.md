@@ -26,14 +26,14 @@ Let’s try something hands‑on.
 On some lenses the movement of the diaphragm can be hard to see, especially on smaller or cheaper lenses. So here’s an example of what it should look like:
 
 <div class="img-row">
-  <img loading="lazy" src="/img/2016_02_01_14_16_53_4212.png" alt="Aperture example — f/1.4">
-  <img loading="lazy" src="/img/2016_02_01_14_17_02_4213.png" alt="Aperture example — f/2">
-  <img loading="lazy" src="/img/2016_02_01_14_17_09_4214.png" alt="Aperture example — f/2.8">
-  <img loading="lazy" src="/img/2016_02_01_14_17_15_4215.png" alt="Aperture example — f/4">
-  <img loading="lazy" src="/img/2016_02_01_14_17_21_4216.png" alt="Aperture example — intermediate">
-  <img loading="lazy" src="/img/2016_02_01_14_17_27_4217.png" alt="Aperture example — smaller aperture">
-  <img loading="lazy" src="/img/2016_02_01_14_17_34_4218.png" alt="Aperture example — small aperture">
-  <img loading="lazy" src="/img/2016_02_01_14_17_40_4219.png" alt="Aperture example — f/16">
+  <img loading="lazy" src="{{ '/img/2016_02_01_14_16_53_4212.png' | url }}" alt="Aperture example — f/1.4">
+  <img loading="lazy" src="{{ '/img/2016_02_01_14_17_02_4213.png' | url }}" alt="Aperture example — f/2">
+  <img loading="lazy" src="{{ '/img/2016_02_01_14_17_09_4214.png' | url }}" alt="Aperture example — f/2.8">
+  <img loading="lazy" src="{{ '/img/2016_02_01_14_17_15_4215.png' | url }}" alt="Aperture example — f/4">
+  <img loading="lazy" src="{{ '/img/2016_02_01_14_17_21_4216.png' | url }}" alt="Aperture example — intermediate">
+  <img loading="lazy" src="{{ '/img/2016_02_01_14_17_27_4217.png' | url }}" alt="Aperture example — smaller aperture">
+  <img loading="lazy" src="{{ '/img/2016_02_01_14_17_34_4218.png' | url }}" alt="Aperture example — small aperture">
+  <img loading="lazy" src="{{ '/img/2016_02_01_14_17_40_4219.png' | url }}" alt="Aperture example — f/16">
 </div>
 
 *Diaphragm blades at different apertures (examples from a single lens).* 
