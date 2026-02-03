@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,4 +17,5 @@
   "dependencies": {
     "@11ty/eleventy-navigation": "^1.0.5"
   }
+
 }
