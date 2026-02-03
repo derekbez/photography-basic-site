@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ title }} | {{ site.name }}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.6; margin: 0; color: #1a1a1a; }
+      header, main, footer { max-width: 900px; margin: 0 auto; padding: 24px; }
+      header { border-bottom: 1px solid #e7e7e7; }
+      nav ul { list-style: none; display: flex; flex-wrap: wrap; gap: 12px; padding: 0; margin: 12px 0 0; }
+      nav a { text-decoration: none; color: #1a1a1a; padding: 6px 10px; border-radius: 6px; }
+      nav a[aria-current="page"] { background: #f0f0f0; font-weight: 600; }
+      img { max-width: 100%; height: auto; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>{{ site.name }}</h1>
+      {% include "nav.njk" %}
+    </header>
+    <main>
+      {{ content | safe }}
+    </main>
+    <footer>
+      <small>&copy; {{ "now" | date("%Y") }} {{ site.name }}</small>
+    </footer>
+  </body>
+</html>
