@@ -9,8 +9,10 @@ module.exports = function(eleventyConfig) {
   // Copy `content/css` to output `/css`
   eleventyConfig.addPassthroughCopy({ "content/css": "css" });
 
-  pathPrefix: "/photography-basic-site/"
-  
+  // Path prefix for GitHub Pages (serve from a subdirectory)
+  // e.g., https://username.github.io/photography-basic-site/
+  // This value will be added to the returned config below.
+
   // Simple `date` filter used in templates (supports %Y, %m, %d)
   eleventyConfig.addFilter("date", function(value, formatStr) {
     try {
@@ -33,6 +35,7 @@ module.exports = function(eleventyConfig) {
       includes: "_includes",
       layouts: "_layouts",
       data: "_data"
-    }
+    },
+    pathPrefix: "/photography-basic-site/"
   };
 };
