@@ -1,7 +1,7 @@
 ---
 title: "The Exposure Triangle"
 order: 3
-layout: "base"
+layout: "teaching-sidebar"
 eleventyNavigation:
   key: The Exposure Triangle
   order: 3
@@ -54,7 +54,7 @@ Using the same curtain analogy, it’s how long you pull the curtains apart befo
 
 Now to the triangle.
 
-<img loading="lazy" src="{{ '/img/Exposure-Triangle-20260203.png' | url }}" alt="Exposure Triangle" class="img-medium">
+<img loading="lazy" src="{{ '/img/Exposure-Triangle-20260203.png' | url }}" alt="Exposure Triangle" class="img-large">
 
 The reason we call these three settings a triangle is that they’re all connected. Change one, and the exposure changes with it.
 

@@ -1,7 +1,7 @@
 ---
 title: "Shutter Speed"
 order: 6
-layout: "base"
+layout: "teaching-sidebar"
 eleventyNavigation:
   key: Shutter Speed
   order: 6

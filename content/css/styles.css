@@ -1,44 +1,303 @@
-/* Site image utilities */
+/* =====================================================
+   BASE STYLES
+   ===================================================== */
 
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --sidebar-bg: #f7f7f7;
+  --border: #ddd;
+  --accent: #6aa0ff;
+  --sidebar-width: 260px;
+} 
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0e0e0;
+    --sidebar-bg: #2a2a2a;
+    --border: #444;
+    --accent: #8bb3ff;
+  }
+}
+
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  color: var(--text);
+  background: var(--bg);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} 
+
+
+/* =====================================================
+   LAYOUT SYSTEMS
+   ===================================================== */
+
+/* Global container spacing (base layout only) */
+.layout-base header,
+.layout-base main,
+.layout-base footer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* Teaching Layout (with sidebar) */
+.layout-teaching {
+  display: grid;
+  grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+  column-gap: 24px;
+  min-height: 100vh;
+  align-items: start;
+}
+
+/* Sidebar styles live under COMPONENTS for clarity */ 
+
+.main-column {
+  min-width: 0; /* allow content to shrink on small screens */
+  display: flex;
+  flex-direction: column;
+}
+
+.content-area {
+  padding: 2rem 3rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+/* =====================================================
+   COMPONENTS
+   ===================================================== */
+
+/* Header */
+header {
+  border-bottom: 1px solid #e7e7e7;
+}
+
+/* Navigation (base layout only) */
+.layout-base nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 0;
+  margin: 12px 0 0;
+}
+
+.layout-base nav a {
+  text-decoration: none;
+  color: #1a1a1a;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.layout-base nav a[aria-current="page"] {
+  background: #f0f0f0;
+  font-weight: 600;
+}
+
+/* Sidebar navigation items */
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.sidebar-nav li {
+  margin-bottom: 0.5rem;
+}
+
+.sidebar-nav a {
+  display: block;
+  padding: 0.2rem 0.3rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--text);
+  background: transparent;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.sidebar-nav a:hover {
+  background: rgba(0,0,0,0.04);
+  border-color: var(--border);
+}
+
+.sidebar-nav li.active a {
+  background: var(--accent);
+  border-color: var(--accent);
+  font-weight: 600;
+  color: #fff;
+} 
+
+/* Sidebar container */
+.sidebar {
+  width: var(--sidebar-width);
+  min-width: var(--sidebar-width);
+  max-width: var(--sidebar-width);
+  background: var(--sidebar-bg);
+  padding: 2rem 1.5rem;
+  border-right: 1px solid var(--border);
+  position: relative;
+  height: auto;
+  overflow: visible;
+} 
+
+/* Sidebar title */
+.sidebar-title {
+  margin-top: 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--text);
+} 
+
+
+/* Article Components */
+.article-header {
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  color: #666;
+  margin-top: -1rem;
+}
+
+.article-footer {
+  margin-top: 3rem;
+  text-align: center;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+/* Site footer */
+.site-footer {
+  box-sizing: border-box;
+  width: 100%;
+  border-top: 1px solid var(--border);
+  padding: 24px 0; /* vertical padding only; inner container handles horizontal padding */
+  color: #666;
+  font-size: 0.95rem;
+  margin-top: 2rem; /* space above footer only */
+}
+
+.site-footer-inner {
+  max-width: 900px; /* align with main content width */
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: flex-end; /* right-aligned footer content */
+  align-items: center;
+  gap: 1rem;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+/* Cookie banner */
+.cookie-banner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.85);
+  color: #fff;
+  padding: 14px 0;
+  z-index: 9999;
+  display: none;
+}
+
+.cookie-banner.show,
+.cookie-banner[aria-hidden="false"] {
+  display: block;
+}
+
+.cookie-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.cookie-inner p { margin: 0; font-size: 0.95rem; opacity: 0.95; }
+
+.cookie-inner a { color: #fff; text-decoration: underline; }
+
+.cookie-actions { display: flex; gap: 0.5rem; align-items: center; }
+
+.cookie-accept {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cookie-accept:focus { outline: 2px solid #fff; outline-offset: 2px; }
+
+@media (max-width: 600px) {
+  .cookie-inner { flex-direction: column; align-items: flex-start; }
+  .cookie-actions { width: 100%; justify-content: flex-end; }
+}
+
+/* Sticky sidebar only on wider screens */
+@media (min-width: 900px) {
+  .sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+}
+
+/* Stack layout on small screens */
+@media (max-width: 600px) {
+  .layout-teaching {
+    grid-template-columns: 1fr;
+  }
+  .sidebar {
+    width: 100%;
+    min-width: 0;
+    max-width: none;
+    position: relative;
+    height: auto;
+  }
+}
+
+/* =====================================================
+   IMAGE UTILITIES
+   ===================================================== */
+
+/* Size variants */
 .img-smallest { width: 100px; height: auto; }
 .img-smaller { width: 150px; height: auto; }
 .img-small { width: 200px; height: auto; }
 .img-medium { width: 400px; height: auto; }
 .img-large { width: 800px; height: auto; }
 
-/* Make images responsive on smaller screens */
-@media (max-width: 800px) {
-  .img-large { width: 100%; max-width: 800px; }
-}
-
-@media (max-width: 480px) {
-  /* Ensure thumbnails collapse to full width on narrow screens */
-  .img-smallest, .img-smaller, .img-small, .img-medium { width: 100%; max-width: none; }
-}
-
-/* Utility to keep images visually neat */
-img { display: block; max-width: 100%; height: auto; }
-
-/* Simple gallery spacing */
-.gallery img { margin: 0.5rem; }
-
-/* Row layout for adjacent images (responsive, wraps) */
-.img-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin: 1.5rem 0;
-}
-
-.img-row img {
-  flex: 1 1 250px; /* grow, shrink, base width */
+/* Hero image */
+.hero {
   width: 100%;
-  max-width: 250px;
   height: auto;
-  border-radius: 4px;
-  object-fit: cover;
+  margin: 2rem 0;
+  border-radius: 6px;
 }
 
+/* Positioning utilities */
 .float-right {
   float: right;
   margin: 0 0 1rem 1rem;
@@ -49,13 +308,6 @@ img { display: block; max-width: 100%; height: auto; }
   margin: 0 1rem 1rem 0;
 }
 
-.hero {
-  width: 100%;
-  height: auto;
-  margin: 2rem 0;
-  border-radius: 6px;
-}
-
 .img-center {
   text-align: center;
   margin: 2rem 0;
@@ -64,3 +316,52 @@ img { display: block; max-width: 100%; height: auto; }
 .img-center img {
   display: inline-block;
 }
+
+/* Gallery layouts */
+.gallery img {
+  margin: 0.5rem;
+}
+
+.img-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.img-row img {
+  flex: 1 1 250px;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+
+/* =====================================================
+   MEDIA QUERIES
+   ===================================================== */
+
+@media (max-width: 800px) {
+  .img-large {
+    width: 100%;
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 480px) {
+  .img-smallest,
+  .img-smaller,
+  .img-small,
+  .img-medium {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+
+
+
+
+

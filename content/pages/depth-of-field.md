@@ -1,7 +1,7 @@
 ---
 title: "Depth of Field"
 order: 13
-layout: "base"
+layout: "teaching-sidebar"
 eleventyNavigation:
   key: Depth of Field
   order: 13

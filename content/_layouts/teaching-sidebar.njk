@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="{{ '/css/styles.css' | url }}">
+</head>
+
+<body class="layout-teaching">
+
+  <div class="sidebar">
+    <h2 class="sidebar-title">Photography Basics</h2>
+
+    <nav class="sidebar-nav">
+      <ul>
+        {% for item in collections.all | eleventyNavigation %}
+          <li class="{% if item.url == page.url %}active{% endif %}">
+            <a href="{{ item.url | url }}">{{ item.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+  </div>
+
+  <div class="main-column">
+    <main class="content-area">
+      <h1>{{ title }}</h1>
+      {{ content | safe }}
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="site-footer-inner">
+        <p class="site-footer-right">&copy; {{ site.title | default('Photography Basics') }} {{ 'now' | date('%Y') }}</p>
+      </div>
+    </footer>
+  </div>
+
+  <div id="cookie-consent" class="cookie-banner" role="dialog" aria-labelledby="cookie-title" aria-hidden="true">
+    <div class="cookie-inner">
+      <p id="cookie-title">We use a tiny cookie to remember your choice. Read our <a href="{{ '/pages/privacy/' | url }}">Privacy & Cookies</a> notice. By continuing you accept this.</p>
+      <div class="cookie-actions">
+        <button id="cookie-accept" class="cookie-accept">Accept</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function(){
+      var key = 'cookie_consent_v1';
+      if (localStorage.getItem(key)) return;
+      var banner = document.getElementById('cookie-consent');
+      if (!banner) return;
+      banner.setAttribute('aria-hidden','false');
+      banner.classList.add('show');
+      var accept = document.getElementById('cookie-accept');
+      if (accept) {
+        accept.focus();
+        accept.addEventListener('click', function(){
+          localStorage.setItem(key, 'accepted');
+          banner.setAttribute('aria-hidden','true');
+          banner.classList.remove('show');
+        });
+      }
+      banner.addEventListener('keydown', function(e){ if (e.key === 'Escape') { banner.setAttribute('aria-hidden','true'); banner.classList.remove('show'); } });
+    })();
+  </script>
+
+</body>
+</html>

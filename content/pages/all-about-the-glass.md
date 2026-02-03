@@ -1,7 +1,7 @@
 ---
 title: "All About the Glass"
 order: 11
-layout: "base"
+layout: "teaching-sidebar"
 eleventyNavigation:
   key: "All About the Glass"
   order: 11

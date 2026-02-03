@@ -1,7 +1,7 @@
 ---
 title: "ISO"
 order: 4
-layout: "base"
+layout: "teaching-sidebar"
 eleventyNavigation:
   key: ISO
   order: 4

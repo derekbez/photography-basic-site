@@ -1,7 +1,7 @@
 ---
 title: "The Most Important Thing"
 order: 2
-layout: "base"
+layout: "teaching-sidebar"
 eleventyNavigation:
   key: The Most Important Thing
   order: 2

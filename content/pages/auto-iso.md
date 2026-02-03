@@ -1,7 +1,7 @@
 ---
 title: "Auto ISO"
 order: 9
-layout: "base"
+layout: "teaching-sidebar"
 eleventyNavigation:
   key: Auto ISO
   order: 9

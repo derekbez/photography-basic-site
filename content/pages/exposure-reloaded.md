@@ -1,7 +1,7 @@
 ---
 title: "Exposure Reloaded"
 order: 7
-layout: "base"
+layout: "teaching-sidebar"
 eleventyNavigation:
     key: Exposure Reloaded
     order: 7

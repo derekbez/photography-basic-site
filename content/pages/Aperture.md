@@ -1,7 +1,7 @@
 ---
 title: "Aperture"
 order: 5
-layout: "base"
+layout: "teaching-sidebar"
 eleventyNavigation:
   key: Aperture
   order: 5

@@ -1,7 +1,7 @@
 ---
 title: "Is It Art Or Is It Science?"
 order: 1
-layout: "base"
+layout: "teaching-sidebar"
 eleventyNavigation:
   key: Is It Art Or Is It Science?
   order: 1
