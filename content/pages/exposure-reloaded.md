@@ -11,7 +11,7 @@ eleventyNavigation:
 
 Now that we’ve explored ISO, Aperture, and Shutter Speed separately, let’s revisit how these three settings interact — and how you can make them work together for your everyday photography.
 
-<img src="/img/Exposure-Triangle-20260203.png" alt="Exposure Triangle" class="img-medium">
+<img loading="lazy" src="/img/Exposure-Triangle-20260203.png" alt="Exposure Triangle" class="img-medium">
 
 ***
 
@@ -49,7 +49,7 @@ Most of the time, though, you’ll want sharper images, so you’ll use **faster
 
 ### It’s a balancing act
 
-<img src="/img/20080925_0137.jpg" alt="Balancing" class="img-medium">
+<img loading="lazy" src="/img/20080925_0137.jpg" alt="Balancing" class="img-medium">
 
 Here’s my general approach — not a strict rulebook, just a reliable starting point. Try it, adjust it, and build your own style on top of it.
 

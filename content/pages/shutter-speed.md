@@ -58,7 +58,7 @@ Shutter Speed isn’t just a technical setting — it’s a creative one too.
 • **Fast shutter speeds** freeze motion.  
 • **Slow shutter speeds** make movement look blurred or flowing.
 
-<img src="/img/2021_10_21_12_29_20_7492-Edit.jpg" alt="Waves splash" class="img-medium float-right">
+<img loading="lazy" src="/img/2021_10_21_12_29_20_7492-Edit.jpg" alt="Waves splash" class="img-medium float-right">
 
 Most blurry night‑time photos on Twitbook happen because the camera, in Auto mode, slows the shutter too much in the dark. Hand‑holding a camera at anything slower than about **1/50** of a second is tricky, although it depends on the situation and your steadiness.
 
@@ -75,7 +75,7 @@ For these shots you’ll need a tripod, or at least a stable surface, to avoid u
 
 ___
 
-<img src="/img/2023_11_05_14_07_54_6857-Enhanced-NR.jpg" alt="Flowing Water (long exposure)" class="img-medium float-right">
+<img loading="lazy" src="/img/2023_11_05_14_07_54_6857-Enhanced-NR.jpg" alt="Flowing Water (long exposure)" class="img-medium float-right">
 
 On the other hand, when you want to freeze action — children running, pets jumping, sports of any kind — you’ll want to use faster speeds:
 
@@ -92,6 +92,6 @@ ___
 
 For this photo of a stork flying past, instead of keeping the camera still, I panned — gently moving the camera to follow the bird as it flew. The result is that the bird appears sharp, while the background shows pleasing motion blur.
 
-<img src="/img/2014_11_07_08_41_43_2069-Edit.jpg" alt="Flying Stork" class="hero">
+<img loading="lazy" src="/img/2014_11_07_08_41_43_2069-Edit.jpg" alt="Flying Stork" class="hero">
 *ISO 400, f/8, 1/30 of a second*
 

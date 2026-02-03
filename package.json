@@ -1,20 +1,21 @@
 {
   "name": "photoblogwebsite",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Static photography teaching website built with Eleventy",
+  "type": "commonjs",
   "scripts": {
+    "start": "eleventy --serve",
     "build": "eleventy",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "debug": "DEBUG=Eleventy* eleventy",
+    "benchmark": "DEBUG=Eleventy:Benchmark* eleventy"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "author": "Derek Bezuidenhout",
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.2"
-  },
-  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-navigation": "^1.0.5"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

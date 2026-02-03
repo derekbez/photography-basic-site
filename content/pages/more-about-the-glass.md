@@ -61,12 +61,12 @@ In the series below, the focal length changes from **18mm** all the way to **300
 
 
 <div class="img-row">
-  <img src="/img/2016_03_13_09_42_05_6046.jpg" alt="18mm" class="img-smaller">
-  <img src="/img/2016_03_13_09_41_40_6044.jpg" alt="35mm" class="img-smaller">
-  <img src="/img/2016_03_13_09_41_10_6042.jpg" alt="70mm" class="img-smaller">
-  <img src="/img/2016_03_13_09_40_49_6040.jpg" alt="100mm" class="img-smaller">
-  <img src="/img/2016_03_13_09_40_41_6039.jpg" alt="200mm" class="img-smaller">
-  <img src="/img/2016_03_13_09_40_27_6038.jpg" alt="300mm" class="img-smaller">
+  <img loading="lazy" src="/img/2016_03_13_09_42_05_6046.jpg" alt="18mm" class="img-smaller">
+  <img loading="lazy" src="/img/2016_03_13_09_41_40_6044.jpg" alt="35mm" class="img-smaller">
+  <img loading="lazy" src="/img/2016_03_13_09_41_10_6042.jpg" alt="70mm" class="img-smaller">
+  <img loading="lazy" src="/img/2016_03_13_09_40_49_6040.jpg" alt="100mm" class="img-smaller">
+  <img loading="lazy" src="/img/2016_03_13_09_40_41_6039.jpg" alt="200mm" class="img-smaller">
+  <img loading="lazy" src="/img/2016_03_13_09_40_27_6038.jpg" alt="300mm" class="img-smaller">
 </div>
 
 (For reference, the focal lengths shown are 18mm, 35mm, 70mm, 100mm, 200mm, and 300mm. The church steeple in the frame was about 1.2 km away.)
@@ -84,7 +84,7 @@ At 18mm, the full sensor is collecting detail across a wide view. If you crop ti
 
 A telephoto lens uses all the pixels on the sensor to capture only the part of the scene you want, giving you far more detail.
 
-<img src="/img/2016_03_13_09_42_05_6046-cropped.jpg" alt="18mm cropped" class="img-medium">
+<img loading="lazy" src="/img/2016_03_13_09_42_05_6046-cropped.jpg" alt="18mm cropped" class="img-medium">
 The 18mm image cropped to about the same as 300mm.
 
 ***

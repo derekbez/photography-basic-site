@@ -23,8 +23,8 @@ One is so bright that the snow becomes a pure white sheet with no texture — th
 Another is so dark that the people in it disappear into the background — that’s **underexposed**.
 
 <div class="img-row">
-  <img src="/img/20150221-110412_2954-2.jpg" alt="Exposure example A" class="img-small">
-  <img src="/img/20150221-110412_2954.jpg" alt="Exposure example B" class="img-small">
+  <img loading="lazy" src="/img/20150221-110412_2954-2.jpg" alt="Exposure example A" class="img-small">
+  <img loading="lazy" src="/img/20150221-110412_2954.jpg" alt="Exposure example B" class="img-small">
 </div>
 
 
@@ -54,7 +54,7 @@ Using the same curtain analogy, it’s how long you pull the curtains apart befo
 
 Now to the triangle.
 
-<img src="/img/Exposure-Triangle-20260203.png" alt="Exposure Triangle" class="img-medium">
+<img loading="lazy" src="/img/Exposure-Triangle-20260203.png" alt="Exposure Triangle" class="img-medium">
 
 The reason we call these three settings a triangle is that they’re all connected. Change one, and the exposure changes with it.
 
