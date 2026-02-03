@@ -1,6 +1,7 @@
 name: Deploy Eleventy site to GitHub Pages
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "main" ]
 
@@ -42,5 +43,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-
