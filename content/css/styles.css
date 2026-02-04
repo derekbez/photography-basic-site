@@ -28,6 +28,7 @@ body {
   margin: 0;
   color: var(--text);
   background: var(--bg);
+  font-size: clamp(16px, 2vw, 18px);
 }
 
 img {
@@ -150,6 +151,31 @@ header {
   position: relative;
   height: auto;
   overflow: visible;
+}
+
+/* Hamburger menu button (hidden on desktop) */
+.hamburger-btn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 12px 16px;
+  font-size: 1.5rem;
+  color: var(--text);
+  align-self: center;
+  min-height: 44px;
+  min-width: 44px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.hamburger-btn:hover {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.hamburger-btn:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 } 
 
 /* Sidebar title */
@@ -268,13 +294,55 @@ header {
 @media (max-width: 600px) {
   .layout-teaching {
     grid-template-columns: 1fr;
-  }
-  .sidebar {
-    width: 100%;
-    min-width: 0;
-    max-width: none;
     position: relative;
-    height: auto;
+  }
+  
+  .hamburger-btn {
+    display: flex;
+  }
+  
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: var(--sidebar-width);
+    height: 100vh;
+    overflow-y: auto;
+    z-index: 1000;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .sidebar.open {
+    transform: translateX(0);
+  }
+  
+  .sidebar::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+  }
+  
+  .sidebar.open::before {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  .sidebar.open ~ .main-column {
+    pointer-events: none;
+  }
+  
+  .main-column {
+    min-width: 0;
   }
 }
 

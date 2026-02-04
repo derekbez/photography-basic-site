@@ -8,7 +8,11 @@
 
 <body class="layout-teaching">
 
-  <div class="sidebar">
+  <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="sidebar">
+    ☰
+  </button>
+
+  <div class="sidebar" id="sidebar">
     <h2 class="sidebar-title">Photography Basics</h2>
 
     <nav class="sidebar-nav">
@@ -50,6 +54,35 @@
 
   <script>
     (function(){
+      // Hamburger menu toggle
+      const hamburgerBtn = document.getElementById('hamburger-btn');
+      const sidebar = document.getElementById('sidebar');
+      
+      if (hamburgerBtn && sidebar) {
+        hamburgerBtn.addEventListener('click', function() {
+          const isOpen = sidebar.classList.toggle('open');
+          hamburgerBtn.setAttribute('aria-expanded', isOpen);
+        });
+        
+        // Close sidebar when a nav link is clicked
+        const navLinks = sidebar.querySelectorAll('a');
+        navLinks.forEach(link => {
+          link.addEventListener('click', function() {
+            sidebar.classList.remove('open');
+            hamburgerBtn.setAttribute('aria-expanded', 'false');
+          });
+        });
+        
+        // Close sidebar when pressing Escape
+        document.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape' && sidebar.classList.contains('open')) {
+            sidebar.classList.remove('open');
+            hamburgerBtn.setAttribute('aria-expanded', 'false');
+          }
+        });
+      }
+      
+      // Cookie consent banner
       var key = 'cookie_consent_v1';
       if (localStorage.getItem(key)) return;
       var banner = document.getElementById('cookie-consent');
