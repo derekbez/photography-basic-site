@@ -79,7 +79,14 @@ Leaving some blank space — sky, a plain wall, an open field — creates calm, 
 This might seem the opposite of giving space, but getting closer often improves a photo. It removes distractions and makes the subject completely clear.
 
 As the saying goes:  
+
+<div class="img-row">
+  <img loading="lazy" src="{{ '/img/2016_02_04_11_50_28_5925.jpg' | url }}" alt="Close-up example 1" class="img-small">
+  <img loading="lazy" src="{{ '/img/2016_02_04_11_50_04_5915.jpg' | url }}" alt="Close-up example 2" class="img-small">
+</div>
 “If your pictures aren’t good enough, you’re not close enough.”
+
+
 
 ***
 
