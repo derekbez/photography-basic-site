@@ -26,7 +26,8 @@ jobs:
         run: npm install
 
       - name: Build Eleventy
-        run: ELEVENTY_ENV=production npx eleventy
+        # Ensure the site is built for a root custom domain (no subdirectory)
+        run: ELEVENTY_ENV=production ELEVENTY_PATH_PREFIX=/ npx eleventy
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

@@ -25,6 +25,9 @@ module.exports = function(eleventyConfig) {
   });
 
   const isProd = process.env.ELEVENTY_ENV === "production";
+  // Allow overriding the path prefix with an environment variable. Default to '/' for custom domains.
+  // Set ELEVENTY_PATH_PREFIX="/photography-basic-site/" when you need a subdirectory deployment.
+  const pathPrefix = process.env.ELEVENTY_PATH_PREFIX || "/";
 
   return {
     dir: {
@@ -34,6 +37,6 @@ module.exports = function(eleventyConfig) {
       layouts: "_layouts",
       data: "_data"
     },
-    pathPrefix: isProd ? "/photography-basic-site/" : "/"
+    pathPrefix
   };
 };
