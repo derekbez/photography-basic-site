@@ -15,9 +15,9 @@ This site is a teaching resource — a collection of practical lessons on photog
 
 ## Also find me elsewhere
 
-- [derekbez.com](https://derekbez.com) — My portfolio and project site. Expect curated galleries, a short About page, and a tidy selection of recent shoots and prints. 
+- [derekbez.com](https://derekbez.com) — My portfolio and project site. Expect curated galleries of Nature, People and Society.
 
-- [Derek on YouTube](https://www.youtube.com/@DerekBezuidenhout) — A calm, observational window into the natural world, your videos linger on birds, insects, and quiet landscapes with a gentle, unhurried style.
+- [Derek on YouTube](https://www.youtube.com/@DerekBezuidenhout) — A calm, observational window into the natural world. The videos linger on birds, insects, and quiet landscapes with a gentle, unhurried style.
 
 If you find something interesting on either of those places, I’d love to hear about it.  Use the Contact page at derekbez.com.
 
