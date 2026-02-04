@@ -14,9 +14,11 @@
     <nav class="sidebar-nav">
       <ul>
         {% for item in collections.all | eleventyNavigation %}
+          {%- if not item.data.hideFromNav %}
           <li class="{% if item.url == page.url %}active{% endif %}">
             <a href="{{ item.url | url }}">{{ item.title }}</a>
           </li>
+          {%- endif %}
         {% endfor %}
       </ul>
     </nav>
@@ -31,6 +33,7 @@
 
     <footer class="site-footer" role="contentinfo">
       <div class="site-footer-inner">
+        <p class="site-footer-left"><a href="{{ '/legal/privacy/' | url }}">Privacy & Cookies</a></p>
         <p class="site-footer-right">&copy; {{ site.title | default('Photography Basics') }} {{ 'now' | date('%Y') }}</p>
       </div>
     </footer>
@@ -38,7 +41,7 @@
 
   <div id="cookie-consent" class="cookie-banner" role="dialog" aria-labelledby="cookie-title" aria-hidden="true">
     <div class="cookie-inner">
-      <p id="cookie-title">We use a tiny cookie to remember your choice. Read our <a href="{{ '/pages/privacy/' | url }}">Privacy & Cookies</a> notice. By continuing you accept this.</p>
+      <p id="cookie-title">We use a tiny cookie to remember your choice. Read our <a href="{{ '/legal/privacy/' | url }}">Privacy & Cookies</a> notice. By continuing you accept this.</p>
       <div class="cookie-actions">
         <button id="cookie-accept" class="cookie-accept">Accept</button>
       </div>

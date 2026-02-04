@@ -2,6 +2,7 @@
 title: "Privacy & Cookies"
 order: 99
 layout: "teaching-sidebar"
+hideFromNav: true
 eleventyNavigation:
   key: Privacy & Cookies
   order: 99

@@ -2,11 +2,13 @@
 <nav aria-label="Primary">
   <ul>
     {%- for entry in nav %}
+      {%- if not entry.data.hideFromNav %}
       <li>
         <a href="{{ entry.url | url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>
           {{ entry.title or entry.key }}
         </a>
       </li>
+      {%- endif %}
     {%- endfor %}
   </ul>
 </nav>
