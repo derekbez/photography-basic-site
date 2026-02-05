@@ -23,7 +23,7 @@ So you never upload `_site` yourself—GitHub builds it.
 
 From `D:\dev\PhotoBlogWebsite`:
 
-```bash
+```powershell
 npx eleventy
 ```
 
@@ -37,9 +37,9 @@ Optional (nice to have): add a script in `package.json`:
 }
 ```
 
-Then you can run:
+Then you can run (PowerShell):
 
-```bash
+```powershell
 npm run build
 ```
 
@@ -85,7 +85,8 @@ jobs:
         run: npm install
 
       - name: Build Eleventy
-        run: npx eleventy
+        # Build for a custom domain (root path). For project pages use ELEVENTY_PATH_PREFIX=/your-repo-name/ instead.
+        run: ELEVENTY_ENV=production ELEVENTY_PATH_PREFIX=/ npx eleventy
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -135,13 +136,19 @@ On GitHub:
 1. Go to **Settings → Pages**.
 2. Under **Build and deployment**, choose:
    - **Source: GitHub Actions** (not “Deploy from a branch”).
-3. After the first successful run, GitHub will show a URL like:
+3. After the first successful run, GitHub will show a URL. For a project page it looks like:
 
 ```text
 https://derekbez.github.io/photography-basic-site/
 ```
 
-That’s your live site.
+For a custom domain it will be your domain, e.g.:
+
+```text
+https://www.derekbez.co.uk/
+```
+
+Note: Use `ELEVENTY_PATH_PREFIX=/` for custom domains or `ELEVENTY_PATH_PREFIX=/your-repo-name/` for project pages.
 
 At this point, you’ve got a full CI/CD loop:
 

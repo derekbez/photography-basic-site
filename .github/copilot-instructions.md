@@ -26,10 +26,10 @@
 ## 🔧 Configuration Essentials
 
 ### pathPrefix (GitHub Pages)
-- Set in `.eleventy.js`: uses environment variable `ELEVENTY_ENV`
-- **Local development:** pathPrefix = `/`
-- **Production (deployed):** pathPrefix = `/photography-basic-site/`
-- Always use the `| url` filter for asset references (images, CSS)
+- Set in `.eleventy.js`: uses environment variable `ELEVENTY_PATH_PREFIX` (default `/`). Note: `ELEVENTY_ENV=production` is often set for production builds but does not control the path prefix.
+- **Local development:** pathPrefix = `/` (default)
+- **Production (deployed):** For GitHub project pages set `ELEVENTY_PATH_PREFIX=/photography-basic-site/`. For a custom domain set it to `/`.
+- Always use the `| url` filter for asset references (images, CSS).
 
 ### Custom Filters
 - `date` filter: Formats dates using `%Y` (year), `%m` (month), `%d` (day)
@@ -85,21 +85,21 @@
 ## 🚀 Development & Deployment
 
 ### Local Development
-```bash
+```powershell
 # Install dependencies
 npm install
 
-# Run dev server (http://localhost:8080/)
+# Run dev server (http://localhost:8080/) (or use `npm start`)
 npx eleventy --serve
 
-# Build for production
-ELEVENTY_ENV=production npx eleventy
+# Build for production (PowerShell)
+$env:ELEVENTY_ENV='production'; $env:ELEVENTY_PATH_PREFIX='/photography-basic-site/'; npx eleventy
 ```
 
 ### Deployment (Automatic)
 - Push to `main` branch → GitHub Actions builds and deploys to GitHub Pages
 - Workflow: `.github/workflows/deploy.yml`
-- Site builds with `ELEVENTY_ENV=production` (applies `/photography-basic-site/` prefix)
+- Site builds with `ELEVENTY_ENV=production`. The repository's deployment workflow should set `ELEVENTY_PATH_PREFIX` (e.g., `/photography-basic-site/`) when needed.
 
 ### Manual Trigger
 - Go to Actions tab → Deploy workflow → "Run workflow" → select `main` branch
@@ -127,4 +127,5 @@ ELEVENTY_ENV=production npx eleventy
 ## 📚 Related Documentation
 - [Content Guide](.github/CONTENT-GUIDE.md) — Writing style and best practices
 - [Contributing](.github/CONTRIBUTING.md) — Setup and workflow for contributors
+- [Environment](.github/ENVIRONMENT.md) — Build & deploy environment variables and examples
 - [Eleventy Docs](https://www.11ty.dev/) — Official documentation

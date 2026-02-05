@@ -79,12 +79,12 @@ The development server rebuilds automatically when you save changes.
 
 Always test locally before committing:
 
-```bash
-# Clear build cache
-rm -rf _site
+```powershell
+# Clear build cache (PowerShell)
+Remove-Item -Recurse -Force .\_site -ErrorAction SilentlyContinue
 
 # Build for production
-ELEVENTY_ENV=production npx eleventy
+$env:ELEVENTY_ENV='production'; $env:ELEVENTY_PATH_PREFIX='/photography-basic-site/'; npx eleventy
 
 # Check the output
 # Open _site/index.html in your browser or use a local server
@@ -100,7 +100,7 @@ This ensures the `pathPrefix` works correctly and all assets resolve properly.
 1. Push changes to the `main` branch
 2. GitHub Actions automatically:
    - Installs dependencies
-   - Builds with `ELEVENTY_ENV=production` (applies pathPrefix)
+   - Builds with `ELEVENTY_ENV=production` and `ELEVENTY_PATH_PREFIX` set (path depends on project vs custom domain)
    - Deploys to GitHub Pages
 3. Site goes live at https://derekbezuidenhout.github.io/photography-basic-site/
 
@@ -112,7 +112,7 @@ This ensures the `pathPrefix` works correctly and all assets resolve properly.
 ### Deploy Workflow
 - **File:** `.github/workflows/deploy.yml`
 - **Trigger:** Push to `main` or manual dispatch
-- **Environment:** `ELEVENTY_ENV=production`
+- **Environment:** `ELEVENTY_ENV=production` and `ELEVENTY_PATH_PREFIX` set as appropriate for the target (project pages vs custom domain)
 - **Output:** Deployed to GitHub Pages
 
 ---
