@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 50
 ---
 
-**Aperture**
+# Aperture
 
 In everyday English, *aperture* simply means an opening or a hole. In photography, it means exactly the same thing. Inside your lens is a small diaphragm that changes size. It’s usually wide open, and when you take a photo it closes down to whatever aperture value you’ve chosen.
 

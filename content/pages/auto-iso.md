@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 90
 ---
 
-**Auto ISO – A Modern Helper**
+# Auto ISO – A Modern Helper
 
 ISO has come a very long way. In the days of film photography, ISO wasn’t something you could change from shot to shot. You chose a roll of film — ISO 100 for bright days, ISO 400 for indoors, maybe ISO 800 for sports or dimly lit events — and that was it. Your choice of ISO was fixed until you finished the roll. If the light changed halfway through, tough luck. You simply had to work around it.
 

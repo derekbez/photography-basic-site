@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 20
 ---
 
-**The Most Important Thing**
+# The Most Important Thing
 
 When you think about photography, it’s natural to assume the most important thing is the camera.  
 But it isn’t. Not by a long shot.

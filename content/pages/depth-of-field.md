@@ -6,7 +6,7 @@ eleventyNavigation:
   key: Depth of Field
   order: 130
 ---
-**Depth of Field**
+# Depth of Field
 
 Here’s a lovely example of *shallow* depth of field: in this portrait of Sophie, her right eye is perfectly sharp while her left eye is already drifting into softness. That’s how narrow depth of field can be — sometimes only a few centimetres. 
 

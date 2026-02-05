@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 100
 ---
 
-**Composition Rules**
+# Composition Rules
 
 ### Rule 1: There are no rules.  
 Truly. Photography is creative, personal, and wonderfully flexible.

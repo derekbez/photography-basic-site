@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 60
 ---
 
-**Shutter Speed**
+# Shutter Speed
 
 Shutter Speed is simply the length of time your camera’s sensor is exposed to light. Most of the time this is a fraction of a second.
 

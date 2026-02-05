@@ -8,7 +8,7 @@ eleventyNavigation:
 ---
 
 
-**ISO**
+# ISO
 
 Does ISO stand for something? Probably — but honestly, no-one in day‑to‑day photography really cares. What matters is what ISO *does*. In photography, ISO refers to how sensitive your camera’s sensor is to light. The idea comes from the days of film, when you bought rolls rated at, for example, ISO 400. With digital cameras, we have the luxury of changing ISO with a single button press instead of swapping out a whole roll of film.
 

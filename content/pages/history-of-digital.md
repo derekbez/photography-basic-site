@@ -1,5 +1,5 @@
 ---
-title: "History of Digital Camerase"
+title: "History of Digital Cameras"
 order: 80
 layout: "teaching-sidebar"
 eleventyNavigation:
@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 80
 ---
 
-**A Brief History of Digital Cameras**
+# A Brief History of Digital Cameras
 
 Digital cameras have come a long way in a surprisingly short time. If you were around in the late 1990s, you may remember the excitement of the first *proper* digital point‑and‑shoots — chunky, plasticky, and with memory cards so tiny in capacity that you could store about eight photos before needing to delete something. But they were incredible for their time. No film! Instant viewing! Space‑age stuff.
 

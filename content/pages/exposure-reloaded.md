@@ -7,7 +7,7 @@ eleventyNavigation:
     order: 70
 ---
 
-**The Exposure Triangle Reloaded**
+# The Exposure Triangle Reloaded
 
 Now that we’ve explored ISO, Aperture, and Shutter Speed separately, let’s revisit how these three settings interact — and how you can make them work together for your everyday photography.
 

@@ -8,6 +8,7 @@ eleventyNavigation:
 ---
 
 # The Other Most Important Thing
+
 If the subject is the heart of a photograph, then light is its lifeblood. Without light, your camera has nothing to record. With too much light, too little, or the wrong kind of light, the subject you’ve so carefully chosen can be lost, flattened or distorted. As photographers, we don’t just point the camera at something interesting — we learn to see light, work with it, and sometimes even shape it.
 Below is a simple look at why light matters so much, and how it influences every photograph you make.
 

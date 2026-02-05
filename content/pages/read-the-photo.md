@@ -7,11 +7,8 @@ eleventyNavigation:
   order: 150
 ---
 
-Here’s a refined, friendly, and cohesive version of your **How To Read a Photograph** chapter. I’ve preserved your ideas, examples, and tone, but smoothed the structure and flow to make it more engaging and easier to follow.
 
-***
-
-## **How To Read a Photograph**
+# How To Read a Photograph
 
 “A picture is worth a thousand words,” so the saying goes — but *why*?  
 What is it about an image that draws you in, holds your attention, or makes you return for another look?

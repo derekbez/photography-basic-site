@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 110
 ---
 
-**All About the Glass**
+# All About the Glass
 
 While the camera body is a technological marvel, the *lens* — the glass on the front — is every bit as important, and often far more complex than it looks. Lenses come in all sorts of shapes and sizes. Well… cylindrical shapes, mostly. But you know what I mean: small lightweight lenses, huge white telephotos, plastic budget lenses, solid metal premium ones, zoom lenses, prime lenses, and everything in between. Some are made by the camera brand; others are made by third‑party companies. The variety is endless.
 

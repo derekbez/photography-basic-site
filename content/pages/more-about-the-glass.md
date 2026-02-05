@@ -8,7 +8,7 @@ eleventyNavigation:
 ---
 
 
-**More About the Glass – Focal Length**
+# More About the Glass – Focal Length
 
 In the previous chapter, you took two photos at different focal lengths. Now let’s look at what those differences really mean, and how focal length affects the way your photos look.
 

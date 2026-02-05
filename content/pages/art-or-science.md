@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 10
 ---
 
-**Is It Art Or Is It Science?**
+# Is It Art Or Is It Science?
 
 Photography means different things to different people.
 

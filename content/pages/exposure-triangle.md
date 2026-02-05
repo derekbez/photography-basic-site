@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 30
 ---
 
-**The Exposure Triangle**
+# The Exposure Triangle
 
 There are countless books, videos, and articles that explain exposure in depth, and many of them will go into far more detail than I can here. Think of this chapter as a friendly overview. I’d actually encourage you to read other explanations too — hearing the same idea described in different ways often helps everything click.
 
