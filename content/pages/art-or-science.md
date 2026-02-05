@@ -1,10 +1,10 @@
 ---
 title: "Is It Art Or Is It Science?"
-order: 1
+order: 10
 layout: "teaching-sidebar"
 eleventyNavigation:
   key: Is It Art Or Is It Science?
-  order: 1
+  order: 10
 ---
 
 **Is It Art Or Is It Science?**

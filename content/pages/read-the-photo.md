@@ -1,10 +1,10 @@
 ---
 title: "How to Read a Photo"
-order: 15
+order: 150
 layout: "teaching-sidebar"
 eleventyNavigation:
   key: How to Read a Photo
-  order: 15
+  order: 150
 ---
 
 Here’s a refined, friendly, and cohesive version of your **How To Read a Photograph** chapter. I’ve preserved your ideas, examples, and tone, but smoothed the structure and flow to make it more engaging and easier to follow.

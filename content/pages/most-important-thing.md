@@ -1,10 +1,10 @@
 ---
 title: "The Most Important Thing"
-order: 2
+order: 20
 layout: "teaching-sidebar"
 eleventyNavigation:
   key: The Most Important Thing
-  order: 2
+  order: 20
 ---
 
 **The Most Important Thing**

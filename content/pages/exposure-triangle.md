@@ -1,10 +1,10 @@
 ---
 title: "The Exposure Triangle"
-order: 3
+order: 30
 layout: "teaching-sidebar"
 eleventyNavigation:
   key: The Exposure Triangle
-  order: 3
+  order: 30
 ---
 
 **The Exposure Triangle**

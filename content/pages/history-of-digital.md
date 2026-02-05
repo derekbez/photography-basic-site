@@ -1,10 +1,10 @@
 ---
 title: "History of Digital Camerase"
-order: 8
+order: 80
 layout: "teaching-sidebar"
 eleventyNavigation:
   key: History of Digital Cameras
-  order: 8
+  order: 80
 ---
 
 **A Brief History of Digital Cameras**

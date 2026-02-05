@@ -1,10 +1,10 @@
 ---
 title: "Composition Rules"
-order: 9
+order: 100
 layout: "teaching-sidebar"
 eleventyNavigation:
   key: Composition Rules
-  order: 9
+  order: 100
 ---
 
 **Composition Rules**

@@ -1,10 +1,10 @@
 ---
 title: "Depth of Field"
-order: 13
+order: 130
 layout: "teaching-sidebar"
 eleventyNavigation:
   key: Depth of Field
-  order: 13
+  order: 130
 ---
 **Depth of Field**
 

@@ -1,10 +1,10 @@
 ---
 title: "Aperture"
-order: 5
+order: 50
 layout: "teaching-sidebar"
 eleventyNavigation:
   key: Aperture
-  order: 5
+  order: 50
 ---
 
 **Aperture**

@@ -1,10 +1,10 @@
 ---
 title: "Auto ISO"
-order: 9
+order: 90
 layout: "teaching-sidebar"
 eleventyNavigation:
   key: Auto ISO
-  order: 9
+  order: 90
 ---
 
 **Auto ISO – A Modern Helper**

@@ -1,10 +1,10 @@
 ---
 title: "Shutter Speed"
-order: 6
+order: 60
 layout: "teaching-sidebar"
 eleventyNavigation:
   key: Shutter Speed
-  order: 6
+  order: 60
 ---
 
 **Shutter Speed**

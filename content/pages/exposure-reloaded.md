@@ -1,10 +1,10 @@
 ---
 title: "Exposure Reloaded"
-order: 7
+order: 70
 layout: "teaching-sidebar"
 eleventyNavigation:
     key: Exposure Reloaded
-    order: 7
+    order: 70
 ---
 
 **The Exposure Triangle Reloaded**

@@ -1,10 +1,10 @@
 ---
 title: "More About the Glass"
-order: 12
+order: 120
 layout: "teaching-sidebar"
 eleventyNavigation:
   key: More About the Glass
-  order: 12
+  order: 120
 ---
 
 

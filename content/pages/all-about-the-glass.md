@@ -1,10 +1,10 @@
 ---
 title: "All About the Glass"
-order: 11
+order: 110
 layout: "teaching-sidebar"
 eleventyNavigation:
-  key: "All About the Glass"
-  order: 11
+  key: All About the Glass
+  order: 110
 ---
 
 **All About the Glass**
