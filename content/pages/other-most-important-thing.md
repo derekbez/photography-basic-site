@@ -24,9 +24,10 @@ The same subject photographed in different light can look peaceful, powerful, my
 
 Understanding this emotional quality of light helps you choose not only how to photograph a subject, but when.
 
-<div class="img-center">
+<div class="img-row">
   <img loading="lazy" src="{{ '/img/20151228_054248_1408.jpg' | url }}" alt="Soft overcast light" class="img-medium">
-  <img loading="lazy" src="{{ '/img/20160104_172654_3016.jpg' | url }}" alt="Harsh midday light" class="img-medium">
+  <img loading="lazy" src="{{ '/img/20160103_084718_5679.jpg' | url }}" alt="Bright overhead light" class="img-medium">
+  <img loading="lazy" src="{{ '/img/20160104_172654_3016.jpg' | url }}" alt="Evening side light" class="img-medium">
 </div>
 
 ## The Quality of Light: Hard vs Soft
@@ -43,11 +44,12 @@ Neither is “better” — each has its purpose. What matters is choosing the r
 
 ## Exposure: Balancing the Amount of Light
 Exposure is simply how much light you allow to hit the sensor. You control it with three tools:
-• Aperture – the size of the opening in the lens.
-• Shutter speed – how long the sensor is exposed.
-• ISO – the sensor’s sensitivity to light.
+- Aperture – the size of the opening in the lens.
+- Shutter speed – how long the sensor is exposed.
+- ISO – the sensor’s sensitivity to light.
+
 Change any one of these, and the brightness of the final image changes. But it’s not only about brightness: each control changes the look of the image too. Aperture shapes depth of field, shutter speed controls motion, ISO introduces or reduces noise.
 
-But at the centre of it all is the same requirement: choosing just the right amount of light to reach the sensor so the image becomes the one you intended.
+**But at the centre of it all is the same requirement: choosing just the right amount of light to reach the sensor so the image becomes the one *you* intended.**
 
 Learn to read the light, and it will guide everything else you do with a camera.

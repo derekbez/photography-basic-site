@@ -40,7 +40,7 @@ So if you’re photographing someone with a 55mm lens at f/5.6, and they’re on
 
 Some time ago, I made the classic mistake while photographing my sister and brother‑in‑law. I wanted a blurred background, so I shot at **f/4** with my **24–105mm** lens fully zoomed in. They were about 3m away from me.
 
-  <img loading="lazy" src="{{ '/img/2016_01_24_13_16_20_4139.jpg' | url }}" alt="Portrait example" class="img-medium float-right">
+  <img loading="lazy" src="{{ '/img/2016_01_24_13_16_20_4139.jpg' | url }}" alt="Portrait error example" class="img-medium float-right">
 
 I focused on my sister — all good.  
 But my brother‑in‑law was standing *slightly* in front of her. Only a few centimetres.

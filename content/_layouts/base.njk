@@ -23,5 +23,16 @@
         <a href="{{ '/legal/privacy/' | url }}">Privacy & Cookies</a>
       </nav>
     </footer>
+
+    <script>
+      // Copy alt text to title attribute for native browser tooltips on hover
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('main img, article img').forEach(img => {
+          if (img.alt && !img.title) {
+            img.title = img.alt;
+          }
+        });
+      });
+    </script>
   </body>
 </html>

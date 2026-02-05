@@ -23,8 +23,8 @@ One is so bright that the snow becomes a pure white sheet with no texture — th
 Another is so dark that the people in it disappear into the background — that’s **underexposed**.
 
 <div class="img-row">
-  <img loading="lazy" src="{{ '/img/20150221-110412_2954-2.jpg' | url }}" alt="Exposure example A" class="img-small">
-  <img loading="lazy" src="{{ '/img/20150221-110412_2954.jpg' | url }}" alt="Exposure example B" class="img-small">
+  <img loading="lazy" src="{{ '/img/20150221-110412_2954-2.jpg' | url }}" alt="Over Exposure" class="img-small">
+  <img loading="lazy" src="{{ '/img/20150221-110412_2954.jpg' | url }}" alt="Under Exposure" class="img-small">
 </div>
 
 

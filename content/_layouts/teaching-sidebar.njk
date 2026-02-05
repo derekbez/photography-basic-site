@@ -82,6 +82,13 @@
         });
       }
       
+      // Image tooltips: copy alt text to title attribute for native browser hover
+      document.querySelectorAll('main img, article img').forEach(img => {
+        if (img.alt && !img.title) {
+          img.title = img.alt;
+        }
+      });
+      
       // Cookie consent banner
       var key = 'cookie_consent_v1';
       if (localStorage.getItem(key)) return;

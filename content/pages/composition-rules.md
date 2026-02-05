@@ -68,7 +68,7 @@ If someone is walking left‑to‑right, place them towards the **left** of the 
 **5b: Use negative space.**  
 Leaving some blank space — sky, a plain wall, an open field — creates calm, balance, and emphasis on your subject.
 
-<img loading="lazy" src="{{ '/img/give-space.jpg' | url }}" alt="Tree Head" class="img-medium">
+<img loading="lazy" src="{{ '/img/give-space.jpg' | url }}" alt="Give the boat space" class="img-medium">
 
 *Space to move and negative space helping isolate the subject.*
 

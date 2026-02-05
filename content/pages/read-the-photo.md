@@ -65,7 +65,7 @@ There’s nothing *wrong* with the photo, but it doesn’t keep the viewer engag
 
 ## **Example 3 — Jökulsárlón, Iceland**
 
-<img loading="lazy" src="{{ '/img/2015_06_21_18_23_21_7030.jpg' | url }}" alt="Pier" class="img-medium float-center">
+<img loading="lazy" src="{{ '/img/2015_06_21_18_23_21_7030.jpg' | url }}" alt="Iceberg" class="img-medium float-center">
 
 This image is quite different.
 
